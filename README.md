@@ -119,9 +119,11 @@ As a registered user, I want to log in to the platform so that I can access my a
 **Then:** The system displays an error message indicating that the credentials are incorrect and does not log the user in.
 
 # Test result 
-<img src="E:\Testing\Result of the completed tests.jpg"/>
+![Result of the completed tests](https://github.com/FatimahAbbasii/Security/assets/143887014/05ba4c3a-4787-4e3b-b258-4eb5998d81cc)
 
 # Evaluation 
-<img src="E:\Testing\Evalution.jpg"/>
+![Evalution](https://github.com/FatimahAbbasii/Security/assets/143887014/fe5d3c40-0517-46f8-a592-3a257be2cffe)
+
+
 
 
