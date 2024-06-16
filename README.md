@@ -64,3 +64,52 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Test Plan
+
+
+### User Story 1
+As a new user, I want to register on the platform so that I can access the services provided.
+
+#### Acceptance Criteria:
+
+**Given:** Register a new user.
+
+##### Happy-Path 😊
+
+**When:** The user provides a valid name, email, and password that meet the specified criteria.  
+
+**Then:** The system registers the user successfully and redirects them to the home page.
+
+**When:** A new user is successfully registered.
+
+**Then:** The system saves the user data in the database securely.
+
+##### Unhappy-Path ☹
+
+**When:** The user provides invalid data, such as an invalid email or a password that does not meet the requirements.
+
+**Then:** The system displays an error message indicating the specific validation errors and does not register the user.
+
+### User Story 2
+As a registered user, I want to log in to the platform so that I can access my account and use the available services.
+
+#### Acceptance Criteria:
+
+**Given:** Log in an existing user.
+
+#### Happy-Path 😊
+
+**When:** The user provides valid login credentials (email and password).
+
+**Then:** The system logs the user in successfully and redirects them to the dashboard.
+
+**When:** The user is successfully logged in.
+
+**Then:** The system maintains the user's authenticated session and allows access to protected routes.
+
+#### Unhappy-Path ☹
+
+**When:** The user provides invalid login credentials.
+
+**Then:** The system displays an error message indicating that the credentials are incorrect and does not log the user in.

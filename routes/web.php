@@ -18,10 +18,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     });
-// Credits route
-    Route::get('/credits', function () {
-        return view('credits');
-    });
     // Add other protected routes here
 });
 
